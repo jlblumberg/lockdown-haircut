@@ -31,18 +31,16 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   align-items: center;
-  position: relative;
 `;
 
 const Header = styled.div`
   text-align: center;
-  position: absolute;
-  top: 20vh;
 `;
 
-const Title = styled.div``;
+const Title = styled.div`
+  padding-top: 8rem;
+`;
 
 const Number = styled.div`
   margin: 5px 0px;
