@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <Container>
-      <div>
+      <Text>
         Made by&nbsp;
         <a
           href="https://joshblumberg.netlify.app/"
@@ -12,11 +12,11 @@ const Footer = () => {
         >
           Josh Blumberg
         </a>
-      </div>
+      </Text>
       <div>
         <img
-          width="200"
-          height="200"
+          width="300"
+          height="300"
           src="https://i.imgur.com/Yh63Ff8.png"
           alt="boris"
         />
@@ -28,8 +28,12 @@ const Footer = () => {
 export default Footer;
 
 // styled components
+const Text = styled.div`
+  text-align: center;
+`;
+
 const Container = styled.div`
   color: ${(p) => p.theme.colors.grey};
   position: absolute;
-  top: 80%;
+  bottom: -12%;
 `;
