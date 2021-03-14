@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <Container>
-      Made with love by&nbsp;
+      Made by&nbsp;
       <a
         href="https://joshblumberg.netlify.app/"
         rel="noopener noreferrer"

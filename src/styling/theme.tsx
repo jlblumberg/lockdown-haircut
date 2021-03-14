@@ -3,7 +3,9 @@ import { DefaultTheme, ThemeProvider } from "styled-components";
 
 const theme: DefaultTheme = {
   colors: {
-    beige: "#faf0e6",
+    beige: "#F9F6F0",
+    // beige: "#faf0e6",
+    grey: "#A9A9A9",
   },
   fonts: {},
 };

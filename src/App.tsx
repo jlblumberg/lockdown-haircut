@@ -1,6 +1,5 @@
 import Theme from "./styling/theme";
 import GlobalStyle from "./styling/global-style";
-import DayUnit from "./components/day-unit";
 import Footer from "./components/footer";
 import styled from "styled-components";
 import HAIRCUT_DATE from "./constants/haircut-day";
@@ -15,10 +14,8 @@ function App() {
       <GlobalStyle />
       <Container>
         <Header>You can get a haircut {daysToGo > 1 ? "in" : null}</Header>
-        <Number>
-          {daysToGo < 1 ? <div>now!</div> : <div>{daysToGo}</div>}
-        </Number>
-        <DayUnit daysToGo={daysToGo} />
+        <Number>{daysToGo > 1 ? daysToGo : "now!"}</Number>
+        <div>{daysToGo === 1 ? "day" : "days"}</div>
         <Footer />
       </Container>
     </Theme>
@@ -28,19 +25,18 @@ function App() {
 export default App;
 
 // styled components
-
 const Container = styled.div`
   display: flex;
-  flex-direction: rows;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 
 const Header = styled.div`
-  position: absolute;
-  top: 20%;
+  margin-top: 16%;
 `;
 
 const Number = styled.div`
-  position: absolute;
-  top: 25%;
+  margin-top: 5px;
+  font-size: xx-large;
 `;
