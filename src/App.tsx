@@ -12,12 +12,14 @@ function App() {
   return (
     <Theme>
       <GlobalStyle />
-      <Container>
-        <Header>You can get a haircut {daysToGo > 1 ? "in" : null}</Header>
-        <Number>{daysToGo > 1 ? daysToGo : "now!"}</Number>
-        <div>{daysToGo === 1 ? "day" : "days"}</div>
+      <PageContainer>
+        <Header>
+          <Title>You can get a haircut {daysToGo > 1 ? "in" : null}</Title>
+          <Number>{daysToGo > 1 ? daysToGo : "now!"}</Number>
+          <div>{daysToGo === 1 ? "day" : "days"}</div>
+        </Header>
         <Footer />
-      </Container>
+      </PageContainer>
     </Theme>
   );
 }
@@ -25,18 +27,24 @@ function App() {
 export default App;
 
 // styled components
-const Container = styled.div`
+const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  min-height: 100vh;
   align-items: center;
+  position: relative;
 `;
 
 const Header = styled.div`
-  margin-top: 16%;
+  text-align: center;
+  position: absolute;
+  top: 25%;
 `;
 
+const Title = styled.div``;
+
 const Number = styled.div`
-  margin-top: 5px;
+  margin: 5px 0px;
   font-size: xx-large;
 `;
