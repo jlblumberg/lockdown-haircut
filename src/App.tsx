@@ -31,7 +31,7 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 100vh;
   align-items: center;
   position: relative;
 `;
@@ -39,7 +39,7 @@ const PageContainer = styled.div`
 const Header = styled.div`
   text-align: center;
   position: absolute;
-  top: 25%;
+  top: 20vh;
 `;
 
 const Title = styled.div``;
