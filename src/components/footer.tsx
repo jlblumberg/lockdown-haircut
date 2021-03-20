@@ -28,7 +28,7 @@ export default Footer;
 // styled components
 const Container = styled.div`
   position: absolute;
-  bottom -4rem;
+  bottom: -4rem;
 `;
 
 const TextContainer = styled.div`

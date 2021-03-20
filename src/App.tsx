@@ -32,6 +32,7 @@ const PageContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 100%;
 `;
 
 const Header = styled.div`
