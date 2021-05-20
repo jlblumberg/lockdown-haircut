@@ -16,7 +16,6 @@ function App() {
         <Header>
           <Title>You can get a haircut {daysToGo > 1 ? "in" : null}</Title>
           <Number>{daysToGo > 1 ? daysToGo : "now!"}</Number>
-          <div>{daysToGo === 1 ? "day" : "days"}</div>
         </Header>
         <Footer />
       </PageContainer>
