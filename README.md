@@ -1,5 +1,12 @@
-# When can you get a haircut in the UK?
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fc08921c-78fa-494c-afe8-fa348da5d809/deploy-status)](https://app.netlify.com/sites/lockdownhaircut/deploys)
+# Feb 2022 Update
+
+One year since this historic site was built and it's now completely culturally irrelivant. Such is the battle we face when chasing virality. As such, I have decided not to renew the hefty $14.99 per year domain name. Here's what the site used to look like, for posterity:
+
+<img width="1426" alt="Screenshot 2022-02-07 at 08 46 45" src="https://user-images.githubusercontent.com/56274153/152754752-ff1fbb75-3558-47e5-ba8b-a2de9fd82cd1.png">
+
+Below is the original README.
+
+## When can you get a haircut in the UK?
 
 Head to [whencanigetabloodyhaircut.com](https://www.whencanigetabloodyhaircut.com/) to find out.
 
